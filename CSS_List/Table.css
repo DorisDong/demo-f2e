@@ -1,0 +1,37 @@
+table,th,td{
+    border:1px solid blue ;
+}
+p{
+    border:2px solid #ff39f4;
+}
+
+table.collapse{
+    border-collapse: collapse; /*如果需要把表格显示为单线条边框，请使用 border-collapse 属性*/
+    border:1px solid yellow ;
+
+    /* 宽度 */
+    width:60%;
+
+    height:200px;
+}
+
+/*高度*/
+th{
+    height:50px;
+}
+
+td.center{
+    text-align: center;
+}
+td.right{
+text-align : right;
+}
+td.padding{
+    padding:15px;
+}
+
+th.background,td.background{
+    background-color: green;
+    color:white ;
+}
+

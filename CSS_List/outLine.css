@@ -1,0 +1,24 @@
+p{
+  outline:#00FF00  ;/*dotted thick*/
+}
+
+
+p.dashed {
+    outline-style: dashed;
+    outline-color: #ff39f4;
+}
+p.dotted {
+    outline-style: dotted ;
+    outline-width: thick;
+    /*outline-width: 5px;*/
+}
+p.double {
+    outline-style: double;
+    outline-color: aqua;
+}
+p.solid {
+    outline-style: solid;
+    outline-color:#FFFFFF ;
+}
+
+
