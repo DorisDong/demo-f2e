@@ -1,0 +1,25 @@
+/*链接的 4 种状态：a:link  a:visited  a:hover  a:active */
+/*链接的文本修饰*/
+/*背景色*/
+a:link{
+    color : black;
+    text-decoration: none;
+    background-color: #B2FF99;
+}
+a:visited{
+    color :#00FF00;
+    text-decoration: none;
+    background-color: #FFFF85;
+}
+a:hover{
+    color :#FF00FF ;
+    text-decoration:underline;
+    background-color: #FF704D;
+}
+a:active{
+    color:#0000FF ;
+    text-decoration:underline;
+    background-color: #FFFF99;
+}
+
+
