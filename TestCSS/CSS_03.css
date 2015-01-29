@@ -1,0 +1,10 @@
+body{
+    background-image: url(flower01.jpg);
+    /*background-repeat:repeat-y,repeat-x;*/
+    /*background-repeat:no-repeat;*/
+
+    /*background-position: left ; */
+    /*background-position: 66%  33%;*/
+    /*background-position: 50px  33px;*/
+    /*background-attachment: fixed;*/
+}

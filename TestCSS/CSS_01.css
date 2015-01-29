@@ -1,0 +1,69 @@
+ h1{
+    font-family: cursive,monospace
+    color: red ;
+    font-size: 14px;
+    text-align: center;
+}
+p{ color : #ff0000 ; }  /*十六进制颜色值*/
+p{ color: #f00; }      /* 缩写模式*/
+
+/*使用RGB*/
+p{ color: rgb(255,0,0);}
+p{ color: rgb(100%,0%,0%);}
+
+/*使用英文单词*/
+p{ color:green; }
+
+/*选择器分组
+h1,h2,h3,h5,h6{
+    color : green;
+}*/
+
+
+/**********************高级语法部分*******************************/
+/*继承及其子问题
+body{
+    font-family: Verdana, sans-serif;
+}
+ */
+
+/*Netscape4 无法理解继承 却理解选择器
+body{
+    font-family: Verdana,sans-serif;
+}
+p,td,ul,li,dl,dt,dd {
+    font-family: Verdana,sans-serif;
+}*/
+
+/*特殊规则不想继承特殊处理，例如
+body{
+    font-family: Verdana,sans-serif;
+}
+td,ul,li,dl,dt,dd {
+    font-family: Verdana,sans-serif;
+}
+p{
+    font-family: "Times","Times new Roman",serif ;
+}
+ */
+
+/************************派生选择器******************************/
+/*通过依据元素在其位置的上下文关系来定义样式*/
+strong{
+    color: red;
+}
+h2{
+    color: black;
+}
+h2 strong{
+    color: blue;
+}
+
+/*id 选择器 */
+ #red{
+     color: red;
+ }
+
+ #green{
+     color: green;
+ }

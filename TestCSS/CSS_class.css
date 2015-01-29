@@ -1,0 +1,51 @@
+/*普通class定义*/
+.center{
+    text-align: center;
+}
+
+/*用做派生类*/
+.fancy {
+    color : #f60 ;
+    background: #666;
+}
+
+/*元素也可以用于其他类而被选择*/
+td.fancy{
+    color : #f60 ;
+    background: #666;
+}
+
+/*属性选择器*/
+[title]{
+    color: green;
+}
+
+/*属性和值选择器*/
+[title=W3School]{
+   border: 5px solid blue;
+}
+
+/*属性和多个值选择器*/
+[title~=hello] {
+    color: blue;
+    border: 2px solid black;
+}
+/*适用于连字符分隔的属性值*/
+[lang|=en] { color:red ;}
+
+/*设置表单样式*/
+input[type="text"]
+{
+    width: 150px;
+    display: block;
+    margin-bottom:10px;
+    background-color: yellow;
+    font-family: Verdana,Arial;
+}
+input[type="button"]
+{
+    width: 120px;
+    display: block;
+    margin-left:35px;
+    font-family: Verdana,Arial;
+}
