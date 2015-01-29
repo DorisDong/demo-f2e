@@ -1,0 +1,48 @@
+/*通用字体系列*/
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: Georgia ,Helvetica;
+}
+
+/*注意存在空格或者某些字符时用引号（单引号双引号）区分开*/
+p{
+    font-family: Times,TimesNR,'New Century Schoolbook',
+    Georgia,'New Tork',serif;
+}
+
+p.normal{
+    font-style: normal;
+}
+p.italic{
+    font-style: italic;
+}
+p.oblique{
+    font-style: oblique;
+}
+
+/*字体变形*/
+p.small{
+    font-variant: small-caps;
+}
+
+/*字体加粗 normal400  thick700 thicker 900 */
+ p strong {
+     font-weight: bold;
+     color : green;
+     font-size: 30px;
+ }
+
+ /*字体大小 绝对值 相对值 使用像素设置字体大小  表示方法：1.em  2. pixels/16=em 3.百分比*/
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+    color: red ;
+}
+a{
+    font-size: 2.5em;
+}
