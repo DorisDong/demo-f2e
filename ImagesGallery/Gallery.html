@@ -11,23 +11,35 @@
 <body>
 <h1>Snapshots</h1>
 
-<h3 id="demo-test" data-demo-test="xxxx">Hello World</h3>
+<!--<h3 id="demo-test" data-demo-test="xxxx">Hello World</h3>-->
 
-<ul>
-    <li><a title = "这个夏天你去不了！" a onclick="showPic(this);return false" href="images/Book.jpg">Book</a></li>
-    <li><a title = "记忆太过于浅薄，回忆又过于执着、、、" onclick="showPic(this);return false" href="images/Girl.jpg">Girl</a></li>
-    <li><a title = "还记得那年夏天的薰衣草吗？" onclick="showPic(this);return false" href="images/Flowers.jpg">Flower</a></li>
-    <li><a title = "岁月，抹去的不过是曾经的背影、、、" onclick="showPic(this);return false" href="images/Bicycle.jpg">Bicycle</a></li>
+<ul  id="imagegallery">
+    <li><a title = "这个夏天你去不了！"   href="images/Book.jpg">
+        <img src="images/thumbnail_Book.jpg" alt="Book"/></a></li>
+    <!--a onclick="showPic(this);return false"-->
+
+
+    <li><a title = "记忆太过于浅薄，回忆又过于执着、、、" href="images/Girl.jpg">
+        <img src="images/thumbnail_Girl.jpg" alt="Girl"/>
+    </a></li>
+    <!--  onclick="showPic(this);return false"-->
+
+
+    <li><a title = "还记得那年夏天的薰衣草吗？" href="images/Flowers.jpg">
+        <img src="images/thumbnail_Flowers.jpg" alt="Flowers"/>
+    </a></li>
+    <!--onclick="showPic(this);return false"-->
+
+
+    <li><a title = "岁月，抹去的不过是曾经的背影、、、" href="images/Bicycle.jpg">
+        <img src="images/thumbnail_Book.jpg" alt="Book"/>
+    </a></li>
+    <!-- onclick="showPic(this);return false" -->
+
 </ul>
-<!-- <a href="http://www.baidu.com" onclick="return false">Click me</a> -->
+
 <img id="placeholder" src="images/alwayswin.jpg" alt="my image gallery"/>
 <p id = "description">Choose an image .</p>
-<ul>
-    <li><a>test</a></li>
-    <li>we</li>
-    <li>are</li>
-    <li>what</li>
-</ul>
 
 <script type="text/javascript" src="ShowImage.js"></script>
 </body>
